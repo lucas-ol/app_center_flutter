@@ -4,8 +4,8 @@ import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
-final _methodChannelName = "lucas.melo.flutter_app_center_flutter";
-final _methodChannel = MethodChannel(_methodChannelName);
+const String _methodChannelName = "lucas.melo.flutter_app_center_flutter";
+const MethodChannel _methodChannel = MethodChannel(_methodChannelName);
 
 class AppCenter {
   static Future startAsync({
